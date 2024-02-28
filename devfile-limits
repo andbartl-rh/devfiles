@@ -1,0 +1,9 @@
+schemaVersion: 2.1.0
+metadata:
+  name: multi-container-test
+components:
+  - name: maven
+    container:
+      image: eclipse/maven-jdk8:latest
+      memoryLimit: 512M
+      memoryRequest: 256M
