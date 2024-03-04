@@ -5,6 +5,14 @@ components:
   - name: tools
     container:
       image: registry.redhat.io/devspaces/udi-rhel8@sha256:b0dfd9e15d878785bea5cb33a82a014abbd08c839917e72a8cd629c84bf47f1e
+      cpuLimit: 750m
+      cpuRequest: 450m
+      memoryLimit: 512M
+      memoryRequest: 256M
   - name: dixital
     container:
       image: registry.redhat.io/devspaces/udi-rhel8@sha256:b0dfd9e15d878785bea5cb33a82a014abbd08c839917e72a8cd629c84bf47f1e
+      cpuLimit: 750m
+      cpuRequest: 450m
+      memoryLimit: 512M
+      memoryRequest: 256M
